@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home" />
+
+        <!--        <item-->
+        <!--            android:id="@+id/nav_Map"-->
+        <!--            android:icon="@drawable/ic_baseline_maps"-->
+        <!--            android:title="Google Map" />-->
+
+        <item
+            android:id="@+id/nav_emergencyhotlines"
+            android:icon="@drawable/ic_baseline_local_phone"
+            android:title="Emergency hotlines" />
+
+        <item
+            android:id="@+id/nav_BMI"
+            android:icon="@drawable/ic_baseline_calculate"
+            android:title="BMI Records" />
+
+                <item
+                    android:id="@+id/nav_Map"
+                    android:icon="@drawable/ic_baseline_maps"
+                    android:title="Google Map" />
+
+
+
+
+
+
+
+    </group>
+
+
+
+<!--    <item android:title="">-->
+<!--        <menu>-->
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_logout"
+                    android:title="Logout" />
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_profile"-->
+<!--                    android:icon="@drawable/ic_baseline_account_circle"-->
+<!--                    android:title="Profile" />-->
+
+                <!--                -->
+
+
+            </group>
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

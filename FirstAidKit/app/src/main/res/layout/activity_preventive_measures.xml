@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aidbg5">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PreventiveMeasures">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:text="Preventive Measures"
+            android:textColor="#990000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:width="330dp"
+            android:text="The most effective way to prevent and limit the international spread of pests through trade and passenger movements is to regulate their movement through phytosanitary measures, and ensure that best agricultural practices are applied to reduce the incidence of pests to a low level."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="The regulatory aspects"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="According to Carvajal-Yepes et al. (2019) and Giovani et al. (2020), phytosanitary import legislation is the first line of defence in any prevention of international spread. The objective of a phytosanitary import regulatory system is to prevent or limit the introduction of regulated pests with imported commodities and other regulated articles and passengers. A phytosanitary import regulatory system usually consists of two components: a regulatory framework of phytosanitary legislation, regulations and procedures; and an official service, the national plant protection organization (NPPO), responsible for operation or oversight of the system (ISPM 20, 2019). The NPPO has a number of responsibilities in operating a phytosanitary import regulatory system, including certain responsibilities identified in Article IV.2 of the IPPC (IPPC Secretariat, 1997). In relation to imports these include, but are not limited to, surveillance, inspection, the conduct of PRA, and the training and development of staff."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="For a phytosanitary import regulatory system to remain effective in a situation of climate change, it will be all the more important to have good risk assessment capabilities and to employ them to assess potential risk scenarios, taking climate change into account. The implementation of functioning and well-organized surveillance and monitoring activities will also be crucial. Official services will need to survey and monitor with more vigilance in order to detect promptly both new introductions (including those establishing because of changing climatic parameters) and changes in pest status and to be able to react quickly (Carvajal-Yepes et al., 2019; Lopian, 2018; Giovani et al., 2020; STDF/World Bank, 2011)."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Pest risk analysis"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="The cornerstone of any efficient phytosanitary import regulatory system is the availability of a PRA conducted by an NPPO. Pest risk analysis provides the NPPO with the rationale for phytosanitary measures to prevent the introduction of pests, by evaluating scientific evidence to determine whether an organism is a pest (ISPM 2, 2019). Pest risk analysis evaluates the probability of introduction and spread of the pest and the magnitude of its potential economic consequences in a defined area by using biological or other scientific and economic evidence. It may identify potential management options that can reduce the risk to an acceptable level. In addition, it can be used to establish phytosanitary regulations. Pest risk analysis also considers commodities and the risks associated with them from a particular area of origin. A suite of specific PRA standards to be used by countries in different situations have been developed under the auspices of the IPPC Secretariat."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="As climate change has an effect on the biology and epidemiology of pests, PRA activities will need to be intensified at national, regional and international levels and climate-change aspects will need to be incorporated into the assessment of plant-health risks (Lopian, 2018). The introduction and spread of serious invasive pests can only be prevented if NPPOs are aware of the risks and this awareness is primarily the result of a PRA. In this context, it is important to ensure that climate-change impacts are appropriately reflected in the PRA methodology and process to allow risk assessors to correctly analyse risks and to suggest mitigation measures."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Surveillance and monitoring"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="One of the most essential activities of NPPOs is surveillance and monitoring for pests, which allows them to detect newly introduced pests early and consequently take immediate control and eradication actions. Usually, the earlier a pest is detected after introduction, the better are the chances that eradication measures will be successful. Accordingly, one of the major components of a strategy to address the dangers of pest introduction in a changing climatic context must be surveillance and monitoring (FAO, 2008) in order to allow the detection of new pest introductions. It is therefore not surprising that much of the work developed under the auspices of the IPPC Secretariat has focused on surveillance and detection, including an ISPM (ISPM 6, 2018) and a manual on surveillance (IPPC Secretariat, 2016), together with a suite of diagnostic protocols for detecting and identifying pests and diseases."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="Climatic variability caused by climate change will have considerable effects on the design and implementation of appropriate surveillance and monitoring programmes carried out by official services. According to ISPM 6 (Surveillance), the suitability of the climate and other ecological conditions in the area for the pest is one of the factors that may determine the sites selected for surveillance. Yet there are still considerable unknowns regarding the suitability of specific climatic conditions for individual species."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="The effects of climate change on the distribution of species are not yet well understood, and the effects of climate change on microclimates and their species is currently under discussion and investigation. While it is suggested that microclimates can function as buffers to species extinction by creating so-called “microrefugia” (Suggitt et al., 2018), it is also acknowledged that knowledge about the effects of climate change on microclimates and their ecology is still too scarce and that more research is necessary to more accurately estimate the future climatic conditions experienced by organisms in microclimates (Maclean, 2020). Future surveillance and monitoring programmes will need to take account of the results from such research. Surveillance activities, however, may not only be limited to official surveys. The possibility to utilize “citizen science” for the detection of emerging plant-health threats is a promising tool and should be further considered."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="International cooperation and information exchange"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="Climate change will shift agro-climatic zones (King et al., 2018). This shift may lead to new trade flows, providing agricultural products to countries that suffer most from the shortage of them. In cases where crop production for specific species shifts as a result of climatically changed conditions, trade routes for these species will also change (Lopian, 2018). Exacerbating the above, the IPCC predicts that climate change will result in increased international agricultural trade in terms of both physical volume and commercial value (IPCC, 2014b)."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="The shift of agricultural production zones, changed trade flows and the consequent increase of international agricultural trade volumes will, in combination with the limited knowledge of pest behaviour under new climatic and ecosystem conditions, result in a deficiency of reliable, scientifically verifiable information upon which risk assessors and regulators can base their assessments and mitigation measures. This deficiency could be alleviated through the establishment of a reliable international information-exchange network dedicated to providing official services with information about the occurrence of pests and potential pathways. However, although the IPPC Secretariat does have an information-exchange mandate, the information-exchange activities undertaken are extremely limited and are more of a passive nature, publishing reports made by contracting parties. Much still needs to be done, therefore, to enhance the international exchange of information."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Preventive pest-management practices"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:width="330dp"
+            android:text="Best-available practices for pest management include, for example, production of clean seed and planting material, early warning systems, good diagnostic tools, and effective treatments such as seed dressings (Gullino, Gilardi and Garibaldi, 2014b; Gullino and Munkvold, 2014; Munkvold, 2009; Munkvold and Gullino, 2020; Thomas et al., 2017), together with the associated sampling and monitoring. Other best-available practices include the use of resistant cultivars when available, the adoption of cultural practices promoting plant health, integrated pest-management systems, the application of rigorous hygiene measures, and the use of biological crop-protection products. These practices will become all the more important in the face of increasing and changing threats from pests due to climate change, and some adjustments are likely to be needed to maintain their effectiveness: for example, crop rotation may involve species better adapted to local climatic conditions and the application regime for fungicides may need to be intensified."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

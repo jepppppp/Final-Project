@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/drawable/ic_baseline_logout.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_account_profile.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_addcontact.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_anywhere_events.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_bmi.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_bmipage2.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_bmirecords.xml" value="0.2" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_bmiresultpage.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_common_in_home.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_emergencyhotlines.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_first_aid_basics.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_first_aid_myths.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_google_maps.xml" value="0.3338541666666667" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_login.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_main.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_map_nearby_places.xml" value="0.3338541666666667" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_notes_taker.xml" value="0.264" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_outdoor_events.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_preventive_measures.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_register.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_serious_incidents.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_splash.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/activity_usefulstuff.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/custom_notes_row.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/header.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/layout/notes_list.xml" value="0.33" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/menu/add_note_menu.xml" value="0.3411458333333333" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/menu/call_note_menu.xml" value="0.3411458333333333" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/menu/popup_menu.xml" value="0.3338541666666667" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/jep/AndroidStudioProjects/FirstAidKit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17592592592592593" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

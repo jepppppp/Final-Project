@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AccountProfile"
+    >
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical">-->
+    <!--        -->
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="250dp"-->
+    <!--            android:background="#5CC09f">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="150dp"-->
+    <!--                android:layout_height="150dp"-->
+    <!--                android:id="@+id/imageView_profile_dp"-->
+    <!--                android:layout_centerInParent="true"-->
+    <!--                android:background="@drawable/no_profile_pic"/>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:id="@+id/textView_show_welcome"-->
+    <!--                android:layout_below="@id/imageView_profile_dp"-->
+    <!--                android:hint="Loading..."-->
+    <!--                android:layout_centerHorizontal="true"-->
+    <!--                android:layout_marginTop="5dp"-->
+    <!--                android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+    <!--                android:textColor="@color/white"/>-->
+
+    <!--        </RelativeLayout>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:padding="15dp"-->
+    <!--            android:layout_margin="15dp"-->
+    <!--            android:background="@color/white">-->
+
+    <!--            &lt;!&ndash;- full name &ndash;&gt;-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:id="@+id/ic_profile"-->
+    <!--                android:background="@drawable/ic_profile"/>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:id="@+id/textView_show_full_name"-->
+    <!--                android:layout_alignStart="@id/ic_profile"-->
+    <!--                android:hint="Loading..."-->
+    <!--                android:layout_marginStart="50dp"-->
+    <!--                android:textSize="18sp"/>-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_marginTop="20dp"-->
+    <!--                android:layout_below="@id/textView_show_full_name"-->
+    <!--                android:background="@android:color/darker_gray"-->
+    <!--                android:id="@+id/divider_name"/>-->
+
+    <!--            &lt;!&ndash;- email &ndash;&gt;-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="25dp"-->
+    <!--                android:layout_height="25dp"-->
+    <!--                android:id="@+id/ic_email"-->
+    <!--                android:background="@drawable/ic_email"-->
+    <!--                android:layout_below="@id/divider_name"-->
+    <!--                android:layout_marginTop="20dp"/>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:id="@+id/textView_show_email"-->
+    <!--                android:layout_alignStart="@id/ic_email"-->
+    <!--                android:hint="Loading..."-->
+    <!--                android:layout_marginStart="50dp"-->
+    <!--                android:layout_marginTop="20dp"-->
+    <!--                android:layout_below="@id/divider_name"-->
+    <!--                android:textSize="18sp"/>-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_marginTop="20dp"-->
+    <!--                android:layout_below="@id/textView_show_full_name"-->
+    <!--                android:background="@android:color/darker_gray"-->
+    <!--                android:id="@+id/divider_email"/>-->
+    <!--            -->
+
+    <!--        </RelativeLayout>-->
+
+
+    <!--    </LinearLayout>-->
+
+
+
+
+
+    <!--old-->
+
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Welcome"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="28sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Full Name"-->
+<!--            android:textSize="25sp"-->
+<!--            android:id="@+id/nameTv"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Email"-->
+<!--            android:textSize="25sp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:id="@+id/emailTv"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Passsword"-->
+<!--            android:textSize="25sp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:id="@+id/passwordTv"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Phone"-->
+<!--            android:textSize="25sp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:id="@+id/phoneTv"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
